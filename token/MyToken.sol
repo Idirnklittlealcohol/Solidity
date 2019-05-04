@@ -84,7 +84,7 @@ contract StandardToken is Token {
     uint256 public totalSupply;
 }
 
-contract SuperUltraPowerCoin is StandardToken { // CHANGE THIS. Update the contract name.
+contract UmBokDongCoin is StandardToken { // CHANGE THIS. Update the contract name.
 
     /* Public variables of the token */
 
@@ -105,12 +105,12 @@ contract SuperUltraPowerCoin is StandardToken { // CHANGE THIS. Update the contr
     // This is a constructor function 
     // which means the following function name has to match the contract name declared above
     function SuperUltraPowerCoin() {
-        balances[msg.sender] = 1000000000000000000000;               // Give the creator all initial tokens. This is set to 1000 for example. If you want your initial tokens to be X and your decimal is 5, set this value to X * 100000. (CHANGE THIS)
-        totalSupply = 1000000000000000000000;                        // Update total supply (1000 for example) (CHANGE THIS)
-        name = "SuperUltraPowerCoin";                                   // Set the name for display purposes (CHANGE THIS)
+        balances[msg.sender] = 172212;               // Give the creator all initial tokens. This is set to 1000 for example. If you want your initial tokens to be X and your decimal is 5, set this value to X * 100000. (CHANGE THIS)
+        totalSupply = 172212;                        // Update total supply (1000 for example) (CHANGE THIS)
+        name = "UmBokDongCoin";                                   // Set the name for display purposes (CHANGE THIS)
         decimals = 18;                                               // Amount of decimals for display purposes (CHANGE THIS)
-        symbol = "SUPC";                                             // Set the symbol for display purposes (CHANGE THIS)
-        unitsOneEthCanBuy = 10;                                      // Set the price of your token for the ICO (CHANGE THIS)
+        symbol = "UBD";                                             // Set the symbol for display purposes (CHANGE THIS)
+        unitsOneEthCanBuy = 100;                                      // Set the price of your token for the ICO (CHANGE THIS)
         fundsWallet = msg.sender;                                    // The owner of the contract gets ETH
     }
 
